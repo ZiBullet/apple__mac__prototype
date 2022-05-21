@@ -28,6 +28,7 @@
     --gray-border: 2px solid #CFE7FF;
     --blue-border: 2px solid #007FFF;
     --smoothness: 1s ease-in;
+    --smoothness-btn: .3s ease;
 }
 * {
     margin: 0;
@@ -123,6 +124,7 @@ main {
     background-color: var(--light-blue-color);
 }
 .mac__color label {
+    transition: var(--smoothness-btn);
     cursor: pointer;
 }
 .mac__data {
@@ -131,6 +133,7 @@ main {
     grid-template-columns: repeat(1, 1fr);
 }
 .mac__color .activated {
+    transition: var(--smoothness-btn);
     cursor: pointer;
     color: white;
     border-radius: var(--border-radius);
@@ -146,8 +149,10 @@ main {
     padding: 10px 10em 10px 10px;
     border-radius: var(--border-radius);
     border: var(--blue-border);
+    transition: var(--smoothness-btn);
 }
 .datum {
+    transition: var(--smoothness-btn);
     font-weight: 700;
     display: flex;
     cursor: pointer;
