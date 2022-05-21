@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Apple Mac Prototype</title>
+</head>
+<body>
+    <main>
+        <div class="container mac__container">
+            <div class="heading">
+                <h2>Supercharged for pros.</h2>
+                <p>The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip — the first Apple silicon designed for pros — you get groundbreaking performance and amazing battery life. Add to that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+            </div>
+            <div class="mac__screen">
+                <div class="mac__png">
+                    <img class="mac" src="./assets/png/mbp14-silver-select-202110 1.png" alt="">
+                </div>
+                <div class="mac__info">
+                    <div class="mac__name">
+                        <h2>Macbook Pro</h2>
+                        <span class="currentColor">White</span>
+                    </div>
+                    <h2 class="currentPrice">$1.999</h2>
+                </div>
+            </div>
+            <div class="mac__selector">
+                <div class="mac__color">
+                    <div data-setColor="white" class="one activated">
+                        <label for="white">White</label>
+                        <input type="checkbox">
+                    </div>
+                    <div data-setColor="grey" class="two color">
+                        <label for="white">Space Grey</label>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="mac__data">
+                    <div data-sum="0" class="firstDatum active__data">
+                        <span >512 GB SSD</span>
+                    </div>
+                    <div data-sum="200" class="secondDatum datum">
+                        <span >1 TB SSD</span>
+                    </div>
+                    <div data-sum="600" class="thirdDatum datum">
+                        <span >2 TB SSD</span>
+                    </div>
+                    <div data-sum="1200" class="fourthDatum datum">
+                        <span >4 TB SSD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
